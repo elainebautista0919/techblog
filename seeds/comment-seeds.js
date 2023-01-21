@@ -22,7 +22,7 @@ const commentdata = [
     post_id: 4
   },
   {
-    comment_text: 'This is reallty great, what an informative blog post',
+    comment_text: 'This is really great, what an informative blog post',
     user_id: 4,
     post_id: 5
   },
@@ -32,7 +32,7 @@ const commentdata = [
     post_id: 1
   },
   {
-    comment_text: 'I 100% agree!',
+    comment_text: 'I agree, 100%!',
     user_id: 2,
     post_id: 2
   },
