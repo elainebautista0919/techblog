@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
   
-  main {
+main {
     flex: 1;
     padding: 2% 4%;
 }
@@ -15,11 +15,13 @@ body, html {
     color: rgb(104, 102, 102);
 }
 
-a {
+a, h1 {
     text-decoration: none;
-    color: rgb(33, 123, 233);
+    color: rgb(153, 33, 233);
     font-weight: bold;
     transition: color .1s;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
   
 a:hover {
@@ -27,7 +29,7 @@ a:hover {
 }
 
 button {
-    background-color: rgb(33, 123, 233);
+    background-color: rgb(153, 33, 233);
     border: 0;
     padding: 0.65%;
     color: white;
@@ -37,13 +39,8 @@ button {
     border-radius: 8px;
 }
 
-  button:hover {
+button:hover {
     background-color: rgb(104, 102, 102);
-}
-
-.post-list {
-    margin: 2;
-    padding: 2;
 }
 
 textarea, input {
@@ -54,7 +51,7 @@ textarea, input {
   
 textarea:focus, input:focus {
     outline: none;
-    border: 1px solid rgb(33, 123, 233);
+    border: 1px solid rgb(153, 33, 233);
 }
   
 textarea {
@@ -66,11 +63,11 @@ form > div {
     margin-bottom: 2%;
 }
   
-  form label {
+form label {
     display: block;
 }
   
-  .wrapper {
+.wrapper {
     width: 100%;
     min-height: 100%;
     max-width: 1200px;
@@ -80,15 +77,15 @@ form > div {
 }
 
 header {
-    border-bottom: 1px solid rgb(179, 178, 178);
+    border-bottom: 1px solid rgb(104, 102, 102);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1%;
+    padding: 5 1%;
 }
   
   header h1 {
-    font-size: 1em;
+    font-size: 3em;
 }
 
 main {
@@ -102,7 +99,7 @@ main {
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: rgb(33, 123, 233);
+    color: rgb(153, 33, 233);
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -111,7 +108,7 @@ main {
   
 .btn-no-style:hover {
     background: none;
-    color: rgb(33, 123, 233);
+    color: rgb(104, 102, 102);
 }
   
 .delete-post-btn {
@@ -125,9 +122,17 @@ main {
 .post {
     margin-bottom: 2%;
     line-height: 150%;
+    border: 3px solid rgb(104, 102, 102);
+    border-radius: 8px;
+    width: 80%;
+}
+
+.title {
+    margin-left: 25px;
 }
   
 .post .title span {
+    margin: 2%;
     font-style: italic;
     font-size: 90%;
     color: rgb(179, 178, 178);
@@ -175,7 +180,7 @@ main {
 }
 
 footer {
-    border-top: 1px solid rgb(33, 123, 233);
+    border-top: 1px solid rgb(104, 102, 102);
     display: flex;
     justify-content: center;
     padding: 1%;

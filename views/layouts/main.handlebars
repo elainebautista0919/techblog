@@ -14,11 +14,12 @@
   <div class="wrapper">
     <header>
       <h1>
-        <a href="/">Tech Blog</a>
+        Tech Blog
       </h1>
       <nav>
+        <a href="/">Home</a>
         {{#if loggedIn}}
-        <a href="/dashboard">{{ username }}'s Dashboard</a>
+        <a href="/dashboard">Dashboard</a>
         <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
         <a href="/login">Login</a>
