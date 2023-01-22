@@ -21,7 +21,6 @@ a, h1 {
     font-weight: bold;
     transition: color .1s;
     margin-left: 25px;
-    margin-bottom: 25px;
 }
   
 a:hover {
@@ -162,7 +161,7 @@ main {
 }
   
 .comment:nth-child(odd) {
-    background-color: #bedff9;
+    background-color: #dccdf5;
 }
   
 .comment .meta {
