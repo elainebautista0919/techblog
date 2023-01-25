@@ -14,7 +14,7 @@
   As part of Challenge 14, this required building a CMS style blog similar to a wordpress site. <br>
   This follows the MVC paradigm using Handlebars.js as templating language, <br> Sequelize as the ORM and express for authentication.
 
-  Deployed Application: https://elaine0919-tech-blog.herokuapp.com/
+  Deployed Application: https://elaine-tech-blog.herokuapp.com/
 
   ## Installation
 
