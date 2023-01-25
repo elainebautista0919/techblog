@@ -28,7 +28,7 @@
 
   ## Usage
 
-  To run the in the terminal, use code npm start
+  To run the code in the terminal, use code npm start
 
   ## Contributing
 
